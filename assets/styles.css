@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'lucidatypeweiter';
+    font-size: 17px;
+    font-style: bold;
+}
+
+.date {
+    background-color: #E7E9EB;
+}
+
+#my-date-picker-range {
+    border: none;
+    background-color: #E7E9EB;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+}
+
+#submit {
+    border-radius: 20px;
+    margin-left: 10px;
+    width: 7.5rem;
+    height: 2.5rem;
+}
+
+#submit:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.nav {
+    position: absolute;
+    width: 25vw;
+    min-height: 310vh;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: #E7E9EB;
+    padding: 100px 10px;
+    margin: 5px;
+    margin-top: 150px;
+}
+
+.content {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 180px;
+    width: 60vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.start {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: larger;
+    color: rgb(166, 243, 248);
+}
+
+.input-place p {
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.form {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 1.5rem;
+}
+
+.form button {
+    width: 5rem;
+    background-color: gray;
+    color: black;
+    border: none;
+}
+
+.buttons {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+}
+
+#forecast {
+    margin-top: 2rem;
+    height: 2.2rem;
+    margin-left: -30px;
+}
+
+#n_days {
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 5px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: #E7E9EB;
+    width: 180px;
+}
+
+#indicators {
+    margin-left: 20px;
+}
+
+.buttons button {
+    width: 7.5rem;
+    height: 2.5rem;
+    border: none;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header p {
+    font-size: 4rem;
+    margin-left: 3rem;
+    line-height: 80%;
+}
+
+#logos {
+    position: absolute;
+    left: 8%;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+}
+
+#dropdown_tickers {
+    height: 35px;
+    border: none;
+    background-color: #E7E9EB;
+    border-bottom: 1px solid #000000;
+    width: 180px;
+}
+
+.DateRangePickerInput__withBorder {
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-top: 10px;
+    background-color: #E7E9EB;
+    border: none;
+}
+
+#stock {
+    margin-left: -10px;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: #000000;
+}
+
+#block_heading {
+    color: rgb(1, 1, 10);
+    margin-top: -30px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+    font-size: 25px
+}
+
+#heading_text {
+    font-size: 45px;
+    margin-left: 460px;
+    margin-top: 25px;
+}
+
+#groww {
+    width: 100px;
+    height: 100px;
+    margin-left: -10px;
+}
+
+#Angel {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.logoes {
+    margin-top: 20px;
+}
+
+#invest {
+    margin-bottom: 20px;
+    margin-left: -30px;
+    color: red;
+}
+
+#dropdown_tickers1 {
+    margin-left: 15px;
+}
+
+#dropdown_tickers2 {
+    margin-left: 35px;
+}
+
+.compare_div {
+    margin-top: 20px;
+}
+
+#compare {
+    margin-left: 20px;
+}
+
+#dropdown_tickers1,
+#dropdown_tickers2 {
+    height: 35px;
+    border: none;
+    background-color: #E7E9EB;
+    border-bottom: 1px solid #000000;
+    width: 130px;
+}
+
+#compare_submit {
+    width: 7.5rem;
+    height: 2.5rem;
+    border: none;
+    background-color: gray;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#compare_submit:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
